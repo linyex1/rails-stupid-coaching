@@ -1,0 +1,16 @@
+<div class="container row">
+  <h1 class="mb-4">Stupid Coaching</h1>
+    <%# <input type="text" name="answer"> %>
+
+  <div class="you border-start border-5 mb-3">
+    <%= @question %>
+    <p>-You </p>
+  </div>
+
+  <div class="coach col-5 border-start border-5 mb-3">
+    <%= @answer %>
+    <p>-your coach</p>
+  </div>
+
+  <%= link_to "Ask a new question", ask_path %>
+</div>
